@@ -21,7 +21,7 @@ price1 = [pt.get_text() for pt in price]
 
 # sort the records
 sorted_price = sorted(price1,key=lambda x : int(x.split('.')[0]))
-
+print('Top 10 most expensive cars in the world: ')
 # print the sorted list
 for x in sorted_price:
     print(x)
